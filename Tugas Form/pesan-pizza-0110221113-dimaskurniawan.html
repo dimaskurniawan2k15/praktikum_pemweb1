@@ -9,9 +9,9 @@
     <body>
         <h1>Black Goose Bistro | Pizza-on-Demand</h1>
         <p style="font-size: 23px;">Our 12" wood-fired pizzas are available for delivery. Bulid your <br> custom pizza and we'll deliver it within an hour.</p>
-        <table>
-        <legend>Your Information</legend>
         <form method="post" action="http://blackgoosebistro.com/pizza.php">
+        <table>
+        <caption>Your Information</caption>
         <tr>
             <th style="text-align: left;"><label for="name">Name</label></th>
             <td>:</td>
@@ -54,12 +54,12 @@
         <input type="checkbox" name="toppings[]" id="pepperoni" value="Pepperoni"><label for="pepperoni">Pepperoni</label>
         <p>
          Number <br>How many pizzas : <select name="pizzas" id="number">
-             <option value="1" id="number">1</option>
-             <option value="2" id="number">2</option>
-             <option value="3" id="number">3</option>
-             <option value="4" id="number">4</option>
-             <option value="5" id="number">5</option>
-             <option value="6" id="number">6</option>
+             <option value="1" >1</option>
+             <option value="2" >2</option>
+             <option value="3" >3</option>
+             <option value="4" >4</option>
+             <option value="5" >5</option>
+             <option value="6" >6</option>
             </select>
         </p>
         <input type="submit" value="Bring me a pizza">
