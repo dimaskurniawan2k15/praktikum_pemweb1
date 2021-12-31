@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        span {
+            visibility: hidden;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <table>
+        <tr>
+            <td>
+                <label for="form-nama">Nama:</label>
+            </td>
+            <td>
+                <input type="text" id="nama" placeholder="masukan nama">
+                <span>nama tidak boleh kosong</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="form-email">Email:</label>
+            </td>
+            <td>
+                <input type="text" id="email" placeholder="masukan email">
+                <span>emai tidak boleh kosong</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="form-jam">Waktu:</label>
+            </td>
+            <td>
+                <input type="time" id="jam">
+                <span>jam keberangkatan tidak boleh kosong</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="form-tujuan">Tujuan:</label>
+            </td>
+            <td>
+                <input type="text" id="tujuan" placeholder="masukan tujuan">
+                <span>tujuan tidak boleh kosong</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="form-tiket">Tiket:</label>
+            </td>
+            <td>
+                <input type="number" id="tiket" placeholder="masukan jumlah tiket">
+                <span>jumlah tiket tidak boleh kosong</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button onclick="validasi()">Submit</button>
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+    <div id="hasil"></div>
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+</html>
